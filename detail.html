@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,16 @@
   <link rel="stylesheet" href="./styles.css">
   <title>Book Detail</title>
 </head>
+
 <body class="book-page">
   <div class="container">
     <a href="/index.html"><button class="primary-btn back-btn">Назад на главную</button></a>
     <main class="book-detail">
+      <div class="wrapper">
       <h1>Название книги</h1>
 
       <a href="/edit.html"><button class="icon-text-btn edit-btn">Редактировать</button></a>
-      
+
       <button class="like-btn icon-btn">
         <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -30,8 +33,21 @@
             fill="#B1B1B1" />
         </svg>
       </button>
-  
+    </div>
+
       <table class="book-detail__table">
+        <tr>
+          <td>Название поля</td>
+          <td>Значение поля</td>
+        </tr>
+        <tr>
+          <td>Название поля</td>
+          <td>Значение поля</td>
+        </tr>
+        <tr>
+          <td>Название поля</td>
+          <td>Значение поля</td>
+        </tr>
         <tr>
           <td>Название поля</td>
           <td>Значение поля</td>
@@ -50,4 +66,5 @@
 
   <script src="./js/detail-page.js" type="module"></script>
 </body>
+
 </html>

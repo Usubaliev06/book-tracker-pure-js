@@ -2,15 +2,10 @@
   background-color: #fff;
   border-radius: 10px;
   width: calc(100% / 3 - (60px / 3));
-  margin-right: 30px;
   padding: 20px;
   position: relative;
-  margin-bottom: 30px;
 }
 
-.book:nth-child(3n) {
-  margin-right: 0;
-}
 
 @media screen and (max-width: 900px) {
   .book {
@@ -28,8 +23,6 @@
 @media screen and (max-width: 600px) {
   .book {
     width: 100%;
-    margin-right: 30px;
-    margin-right: 0;
   }
 }
 

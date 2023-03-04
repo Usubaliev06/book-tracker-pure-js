@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 40px 0;
 }
 
@@ -12,5 +13,10 @@
 main.catalog {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.redSvg path{
+  fill: crimson;
 }

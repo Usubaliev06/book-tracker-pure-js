@@ -8,11 +8,20 @@
   padding: 20px 30px;
   margin-bottom: 40px;
   position: relative;
+  width: 80%;
 }
 
-.book-detail h1 {
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.wrapper>h1 {
   margin-bottom: 24px;
-  width: calc(100% - 100px);
+  margin-right: 340px;
+  width: 38%
 }
 
 .book-detail__table td {
@@ -24,20 +33,19 @@
   font-weight: 700;
 }
 
-.book-detail .like-btn {
-  position: absolute;
-  top: 20px;
-  right: 30px;
+.like-btn {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
 }
 
-.book-detail .edit-btn {
-  position: absolute;
-  top: 20px;
-  right: 130px;
+.edit-btn {
+  width: 140px;
+  height: 40px;
 }
 
-.book-detail .delete-btn {
-  position: absolute;
-  top: 20px;
-  right: 80px;
+.delete-btn {
+  width: 40px;
+  margin-left: 20px;
+  height: 40px;
 }
